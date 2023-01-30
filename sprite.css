@@ -1,0 +1,453 @@
+:root{
+   
+    --background-color:#009b4e ;
+    --font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    --color: #fff;
+}
+body{
+    margin: 0px;
+}
+.logo {
+    width: 126px;
+    height: 44px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+header{
+    background-color:var(--background-color) ;
+    display: flex;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+   position: fixed;
+     
+}
+
+.user {
+    width: 20px;
+    position: absolute;
+    right: 60px;
+    top: 33px;  
+}
+.face{
+    width: 22px;
+    position: absolute;
+    right: 341px;
+    top: 36px;
+}
+
+.spotify{
+    width: 20px;
+    position: absolute;
+    right: 141px;
+    top: 34px;
+}
+.twiter{
+    width: 23px;
+    position: absolute;
+    right: 286px;
+    top: 36px;
+}
+.instagram{
+    width: 23px;
+    position: absolute;
+    right: 180px;
+    top: 34px;
+}
+.youtube{
+    width: 21px;
+    position: absolute;
+    right: 231px;
+    top: 35px;
+}
+.youtube,.face,.twiter,.instagram,.user,.spotify:hover{
+    cursor: pointer;
+}
+.creaters{
+    position: absolute;
+    left: 381px;
+top: 13px;
+font-family: var(--font-family);
+color: var(--color);
+font-weight: 900;
+
+}
+.creaters:hover{
+    color: black;
+    cursor: pointer;
+}
+.products{
+    position: absolute;
+    left: 252px;
+    top: 13px;
+    font-family: var(--font-family);
+    color: var(--color);
+    font-weight: 900;
+}
+.products:hover{
+    color: black;
+    cursor: pointer;
+}
+.buy{
+    position:absolute;
+    top:13px;
+    left :555px;
+    font-family: var(--font-family);
+    color: var(--color);
+    font-weight: 900;
+}
+.buy:hover{
+    color: black;
+    cursor: pointer;
+}
+.fbody{
+    display: flex;
+    background-color:#18a633eb;
+    height: 400px;
+    margin-top: 84px;
+
+    
+    
+}
+.bootile{
+    position: absolute;
+    right: 0px;
+    margin-top: 0px;
+
+}
+.button{
+    position: absolute;
+    left: 191px;
+    top: 341px;
+    height: 52px;
+    width: 176px;
+    color: var(--background-color);
+    font-weight: 900; 
+    font-size: 16px;
+    font-family: var(--font-family);
+
+}
+.button:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.new{
+    left: 189px;
+    top: 167px;
+    position: absolute;
+    font-size: 42px;
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: 900;
+    font-style: italic;
+}
+.same{
+    font-size: 42px;
+    position: absolute;
+    left: 191px;
+    top: 226px;
+    color: #fff;
+    font-weight: 900;
+    font-family: var(--font-family);
+    font-style: italic;
+}
+.drip{
+    font-size: 27px;
+    position: absolute;
+    left: 369px;
+    top: 515px;
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 900;
+}
+.anthony{
+    position: absolute;
+    top: 573px;
+    left: 367px;
+}
+iframe{
+    position: absolute;
+    left: 364px;
+    top: 680px;
+
+}
+.greenB{
+    width: 59px;
+    height: 41px;
+    position: absolute;
+    top: 1169px;
+    left: 1056px;
+    background-color:var(--background-color);
+    border: none;
+}
+.allimg{
+    width: 742px;
+    position: absolute;
+    left: 370px;
+}
+.Tbody{
+   width: 100%;
+  height: 506px;
+   background-color: rgb(250 250 250);
+   position: absolute;
+    top: 1211px;
+}
+.fobody{
+    width: 100%;
+    background-color: #009b4e;
+    position: relative;
+    top: 1233px;
+    height: 390px;
+    display: flex;
+}
+.sl{
+    left: 238px;
+    width: 189px;
+    height: 56px;
+    position: relative;
+    top: 103px;
+}
+.connect{
+    position: absolute;
+    top: 66px;
+    left: 472px;
+    font-family: var(--font-family);
+    color: var(--color);
+    font-weight: 900;
+}
+.pro{
+    position: absolute;
+    top: 68px;
+    right: 402px;
+    font-weight: 900;
+    color: var(--color);
+    font-family: var(--font-family);
+}
+.sprite{
+    position: absolute;
+    top: 129px;
+    right: 409px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color:var(--color) ;
+}
+.zero{
+    position: absolute;
+    top: 158px;
+    right: 301px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+.lymonade{
+    position: absolute;
+    top: 187px;
+    right: 308px;
+    color: var(--color);
+    font-family: var(--font-family);
+    font-weight: 900;
+}
+.chery{
+    position: absolute;
+    right: 337px;
+    top: 219px;
+    font-weight: 900;
+    color: var(--color);
+    font-family: var(--font-family);
+}
+.mix{
+    position: absolute;
+    top: 250px;
+    right: 284px;
+    font-weight: 900;
+    color: var(--color);
+    font-family: var(--font-family);
+}
+.sprite:hover{
+color: black;
+cursor: pointer;
+}
+.zero:hover{
+    color: black;
+    cursor: pointer;
+}
+.mix:hover{
+    color: black;
+    cursor: pointer;
+}
+.lymonade:hover{
+    color: black;
+    cursor: pointer;
+}
+.chery:hover{
+    color: black;
+    cursor: pointer;
+}
+.fa{
+    width: 27px;
+    position: absolute;
+    left: 590px;
+    top: 148px;
+}
+.tw{ 
+    width: 27px;
+    position: absolute;
+    left: 632px;
+    top: 148px;
+}
+.yt{
+    width: 27px;
+    position: absolute;
+    top: 147px;
+    left: 674px;
+}
+.ig{
+    width: 31px;
+    position: absolute;
+    left: 715px;
+    top: 145px;
+}
+.sp{
+    width: 25px;
+    position: absolute;
+    left: 760px;
+    top: 148px;
+}
+.fa:hover{
+    width: 35px;
+    cursor: pointer;
+}
+.yt:hover{
+    width: 35px;
+    cursor: pointer;
+}
+.ig:hover{
+    width:39px;
+    cursor: pointer;
+}
+.sp:hover{
+    width:33px;
+    cursor: pointer;
+}
+.tw:hover{
+    width:35px;
+    cursor: pointer;
+}
+
+
+footer{
+    height: 100px;
+    background-color: var(--background-color);
+    display: flex;
+    margin-top: 1233px;
+}
+h5:nth-child(1){
+    position: absolute;
+    left: 582px;
+     font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+
+
+h5:nth-child(2){
+    position: relative;
+    top: 28px;
+    left: 300px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+.site{
+    position: relative;
+    top: 28px;
+    left: 439px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+
+
+h5:nth-child(4){
+    position: relative;
+    top: 28px;
+    left: 337px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+.sip{
+    position: relative;
+    top: 28px;
+    left:550px;
+    left: 469px; 
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+
+
+h5:nth-child(6){
+    position: relative;
+    top: 28px;
+    left: 372px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+.rule{
+    position: relative;
+    top: 28px;
+    left:575px;
+    left: 498px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+
+}
+
+
+h5:nth-child(8){
+    position: relative;
+    top: 28px;
+    left: 404px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+.no{
+    position: absolute;
+    top: 2158px;
+    left: 414px;
+}
+.nom{
+    position: absolute;
+    top: 2158px;
+    left: 495px;
+}
+.nomb{
+    position: absolute;
+    top: 2158px;
+    left: 575px;
+}
+.numbe{
+    position: absolute;
+    top: 2158px;
+    left: 908px;
+}
+.number{
+    position: absolute;
+    top: 2158px;
+    right: 474px;
+}
+.numberf{
+    position: absolute;
+    top: 2158px;
+    right: 374px;
+}
